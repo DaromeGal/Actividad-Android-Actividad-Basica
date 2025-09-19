@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_settings) {
             Toast.makeText(this,"AJUSTES", Toast.LENGTH_LONG).show();
             return true;
+
         }
         if (id == R.id.action_peching) {
             finish();
